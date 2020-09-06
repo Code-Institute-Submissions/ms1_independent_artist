@@ -19,7 +19,7 @@ The overall aim of this project is to generate exposure for an independent artis
     them to connect wwith interested parties.
 
 #### Scope Plane
-The website will include a gallery of the artists work to date, a biography of the artist
+The website will include a gallery of the artist's work to date, a biography of the artist
 and a facility to contact the artist. 
 
 #### Structure Plane
@@ -35,7 +35,7 @@ The navigation will be intuitive based on the above groupings with each page ava
 using a link, i.e. "Home", "Portfolio", or "Contact", and no reliance on the "Back", button. 
 
 #### Surface Plane
-The pages format will be  consistent with colors and structure, e.g. social media links
+Each page format will be  consistent with colors and structure, e.g. social media links
  in the footer of each page and nav at the top. 
 
 
@@ -54,7 +54,7 @@ The pages format will be  consistent with colors and structure, e.g. social medi
  - As another artist, I want to be able to view the artist's style, location and social media presence in order to
  include in my network and possibly collaborate, again contact facility necessary.
 
- ##### Site owner
+ ##### Site Owner
  - As the site owner, I want to be able to showcase my work in a clear manner.
  - As the site owner, I want to garner followers and interest groups. 
  - As the site owner, I want to provide gallery owners with the opportunity to view my work, and contact me 
@@ -63,6 +63,29 @@ The pages format will be  consistent with colors and structure, e.g. social medi
 
  #### Wireframes
 
- + (https://wireframe.cc/8BmrNc "Project home page wireframe")
- + (https://wireframe.cc/VDgUjF "Project portfolio page wireframe")
- + (https://wireframe.cc/UuQogb "Project contact page wireframe)
+ + (https://wireframe.cc/8BmrNc "Home page wireframe")
+ + (https://wireframe.cc/VDgUjF "Portfolio page wireframe")
+ + (https://wireframe.cc/UuQogb "Contact page wireframe)
+
+ ## Features
+
+ #### Current Features
+
+ - The entire website will be responsive, meaning it will work on large devices
+ such as desktops, and small devices such as smart phones. The concept of "mobile first", design will 
+ be to the fore.
+ - Each page will have a nav bar at the top that will allow navigation to the other pages. 
+ - The  nav bar will be compressed to a button on mobile devices.
+ - There will be social media links in the footer of every page.
+ - The home page will have a carousel to capture the user's attention and interest.
+ - The home page will have a link to google maps to allow a user to locate the artist's studio.
+ - The portfolio page will have detail on the studio.
+ - The portfolio page will have the artist's portfolio items in order so the user can scroll through.
+ - The contact page will have a form so that the user can send a message to the artist to instigate communication.
+ - The contact page will have details on latest activity by the artist so the user is kept up to date. 
+
+ #### Future Features
+
+ - Online shop linked to paypal so that users can directly purchase from the artist.
+ - Online studio time booking system.
+ 
