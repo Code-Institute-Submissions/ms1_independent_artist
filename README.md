@@ -60,3 +60,9 @@ The pages format will be  consistent with colors and structure, e.g. social medi
  - As the site owner, I want to provide gallery owners with the opportunity to view my work, and contact me 
  easily if they  wish to book me. 
  - As the site owner, I want to make it easy for interest groups, other artists and any user to contact me. 
+
+ #### Wireframes
+
+ + (https://wireframe.cc/8BmrNc "Project home page wireframe")
+ + (https://wireframe.cc/VDgUjF "Project portfolio page wireframe")
+ + (https://wireframe.cc/UuQogb "Project contact page wireframe)
