@@ -1,5 +1,54 @@
+/* Header */
+
+header {
+    background-color: rgb(56, 55, 55)
+}
+
+nav h1 {
+    color: #f0f8ffec;
+    font-family: "Dancing Script", cursive;
+}
+
+.navbar-brand {
+    font-size: 175%;
+    font-weight: bold;
+}
+@media screen and (min-width: 576px) {
+    .navbar-brand {
+        padding-left: 50px;
+    }
+}
+
+.navbar-nav {
+    padding-right: 50px;
+}
+
+nav a
+{
+    color: #e60e0ee3;
+}
+
+/* Section */
+
+section {
+    padding-top: 75px;
+}
+
+/* Carousel */
+
 .carousel-item img{
     max-height: 245px;
     max-width: 245px;
      margin: auto;  
  }
+
+/*
+#carousel-art-slide {
+    background: url("../images/fabric.jpg") no-repeat;
+    background-size: cover;
+}
+*/
+
+#carousel-art-slide {
+    background-color: #7deaeed7;
+}
