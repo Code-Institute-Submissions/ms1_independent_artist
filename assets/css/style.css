@@ -6,7 +6,7 @@ header {
 
 nav h1 {
     color: #f0f8ffec;
-    font-family: "Dancing Script", cursive;
+    font-family: "Dancing Script", sans-serif;
 }
 
 .navbar-brand {
@@ -25,7 +25,7 @@ nav h1 {
 
 nav a
 {
-    color: #e60e0ee3;
+    color: #f0f8ffec;
 }
 
 /* Section */
@@ -42,13 +42,46 @@ section {
      margin: auto;  
  }
 
-/*
 #carousel-art-slide {
+    background-color: #e60e0ee3;
+    position: relative;
+}
+
+/* Testimonial */
+
+@media (min-width:768px) {
+.testimonial {
     background: url("../images/fabric.jpg") no-repeat;
     background-size: cover;
 }
-*/
-
-#carousel-art-slide {
-    background-color: #7deaeed7;
 }
+
+.testimonial {
+     background-color: hsla(216, 45%, 78%, 0.843);
+}
+
+.blockquote {
+    color: #e60e0ee3;
+    margin-top: 60px;  
+}
+
+@media (min-width:992px) {
+.blockquote:not(:last-of-type) {
+      border-right: 5px solid #e60e0ee3;
+}
+}
+
+@media (min-width:768px) {
+.blockquote:first-of-type {
+      border-right: 5px solid #e60e0ee3;
+}
+}
+
+.blockquote {
+    font-family: "Kufam", sans-serif;
+}
+
+/* Location */
+
+
+
