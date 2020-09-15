@@ -58,6 +58,7 @@ section {
 
 .testimonial {
      background-color: hsla(216, 45%, 78%, 0.843);
+     padding-bottom: 45px;
 }
 
 .blockquote {
@@ -90,7 +91,7 @@ section {
     font-family: "Kufam", sans-serif;
     font-weight: bold;
     margin-bottom: 0;
-}
+   }
 
 .btn-danger {
     background-color: #e60e0ee3;
@@ -113,11 +114,15 @@ section {
     display: inline-block;
     padding-left: 25px;
     padding-right: 25px;
-    font-size: 30px;   
-    color: black; 
+    font-size: 30px;      
     }
+
 footer {
     background-color: rgb(56, 55, 55)
+}
+
+.fab {
+    color: #f0f8ffec;
 }
 
 
