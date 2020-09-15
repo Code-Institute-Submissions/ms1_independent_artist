@@ -25,7 +25,12 @@ nav h1 {
 
 nav a
 {
-    color: #f0f8ffec;
+    color: #f0f8ffec;    
+    font-family: "Kufam", sans-serif;
+}
+
+nav a:hover {
+    color: #e60e0ee3;
 }
 
 /* Section */
