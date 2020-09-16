@@ -130,4 +130,27 @@ footer {
     color: #f0f8ffec;
 }
 
+/* Contact Form */
+
+.contact-comms {
+    background-color: #e60e0ee3;
+    color: #f0f8ffec;
+    font-family: "Kufam", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-comms h5 {
+    color: black;
+    font-weight: bold;
+}
+
+.contact-background {
+    background: url("../images/fabric.jpg") no-repeat;
+    background-size: cover;
+}
+
+.contact-form {
+    width: 70%;
+} 
 
