@@ -136,7 +136,7 @@ footer {
     background-color: #e60e0ee3;
     color: #f0f8ffec;
     font-family: "Kufam", sans-serif;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 
@@ -148,6 +148,7 @@ footer {
 .contact-background {
     background: url("../images/fabric.jpg") no-repeat;
     background-size: cover;
+    padding-bottom: 5px;
 }
 
 .contact-form {
@@ -156,6 +157,14 @@ footer {
 
 .contact-button {
     width: 60%;
+}
+
+.updates {
+    background-color: #444347e3;
+    color: #f0f8ffec;
+    font-family: "Kufam", sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 
