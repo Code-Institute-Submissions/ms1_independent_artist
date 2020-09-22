@@ -159,12 +159,36 @@ footer {
     width: 60%;
 }
 
+
 .updates {
-    background-color: #444347e3;
+    background-color: #79777ce3;
     color: #f0f8ffec;
     font-family: "Kufam", sans-serif;
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+.updates h3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.updates h5 {
+    color: #e60e0ee3;
+    font-weight: bold;
+}
+
+/*
+.updates {
+    background: url("../images/studio_4.jpg");
+    background-size: cover;
+    color: #f0f8ffec;
+    font-family: "Kufam", sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+*/
+
 
 
