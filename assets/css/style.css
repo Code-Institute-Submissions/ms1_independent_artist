@@ -190,5 +190,26 @@ footer {
 }
 */
 
+/* Portfolio */
+
+.studio-intro {
+    background-color: #e60e0ee3;
+    color: #f0f8ffec;
+    font-family: "Kufam", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+
+.portfolio-pic {
+    max-height: 85vh;
+    max-width: 85vw;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
 
 
