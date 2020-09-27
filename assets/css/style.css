@@ -42,44 +42,47 @@ section {
 /* Carousel */
 
 .carousel-item img{
-    max-height: 245px;
-    max-width: 245px;
+    max-height: 75vh;
+    max-width: 75vw;
      margin: auto;  
  }
 
 #carousel-art-slide {
-    background-color: #e60e0ee3;
+    background-color: #f0f8ffec;
     position: relative;
 }
 
 /* Testimonial */
 
+/*
 @media (min-width:768px) {
 .testimonial {
     background: url("../images/fabric.jpg") no-repeat;
     background-size: cover;
 }
+
 }
+*/
 
 .testimonial {
-     background-color: hsla(216, 45%, 78%, 0.843);
+     background-color: #e60e0ee3;
      padding-bottom: 45px;
 }
 
 .blockquote {
-    color: #e60e0ee3;
+    color: #f0f8ffec;
     margin-top: 60px;  
 }
 
 @media (min-width:992px) {
 .blockquote:not(:last-of-type) {
-      border-right: 5px solid #e60e0ee3;
+      border-right: 5px solid #f0f8ffec;
 }
 }
 
 @media (min-width:768px) {
 .blockquote:first-of-type {
-      border-right: 5px solid #e60e0ee3;
+      border-right: 5px solid #f0f8ffec;
 }
 }
 
@@ -146,7 +149,7 @@ footer {
 }
 
 .contact-background {
-    background: url("../images/fabric.jpg") no-repeat;
+    background: url("../images/picture_4.jpg") no-repeat;
     background-size: cover;
     padding-bottom: 5px;
 }
@@ -209,6 +212,14 @@ footer {
     margin: auto;
     display: block;
     margin-bottom: 10px;
+}
+
+.title {
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: "Kufam", sans-serif;
+    color: #e60e0ee3;
+    font-weight: bold;
 }
 
 
