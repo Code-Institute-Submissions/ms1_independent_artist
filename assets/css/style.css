@@ -152,10 +152,12 @@ footer {
     background: url("../images/picture_4.jpg") no-repeat;
     background-size: cover;
     padding-bottom: 5px;
+    height: 60vh;
 }
 
 .contact-form {
     width: 70%;
+    padding-top: 5%;
 } 
 
 .contact-button {
