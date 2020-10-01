@@ -54,16 +54,6 @@ section {
 
 /* Testimonial */
 
-/*
-@media (min-width:768px) {
-.testimonial {
-    background: url("../images/fabric.jpg") no-repeat;
-    background-size: cover;
-}
-
-}
-*/
-
 .testimonial {
      background-color: #e60e0ee3;
      padding-bottom: 45px;
@@ -183,17 +173,6 @@ footer {
     font-weight: bold;
 }
 
-/*
-.updates {
-    background: url("../images/studio_4.jpg");
-    background-size: cover;
-    color: #f0f8ffec;
-    font-family: "Kufam", sans-serif;
-    font-weight: bold;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-*/
 
 /* Portfolio */
 
