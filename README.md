@@ -31,7 +31,7 @@ The website will be delivered in three pages:
 1. Home - tasters, testimonials, reviews, location link.
 2. Portfolio - Gallery overview, images of the artist's work.
 3. Contact - Form for the user to contact the artist and section with latest detail on
-   exhibitions, blogs and any current point of interest.
+   exhibitions.
 
 #### Skeleton Plane
 
@@ -51,7 +51,7 @@ in the footer of each page and nav at the top.
   something I would buy.
 - As an art connoisseur, I want to be able to contact the artist to discuss purchase.
 - As an art connoisseur, I want to be able to follow the artist on line.
-- As an art connoisseur, I want to be able to find informatin about the artist themselves, their journey,
+- As an art connoisseur, I want to be able to find information about the artist themselves, their journey,
   and what drives them.
 - As a gallery owner, I want to be able to view the artist's portfolio for suitability to my gallery.
 - As a gallery owner, I want to be able to contact the artist if I wish to engage the artist in one
@@ -69,9 +69,9 @@ in the footer of each page and nav at the top.
 
 #### Wireframes
 
-- (https://wireframe.cc/8BmrNc "Home page wireframe")
-- (https://wireframe.cc/VDgUjF "Portfolio page wireframe")
-- (https://wireframe.cc/UuQogb "Contact page wireframe)
+- [Home page wireframe](https://wireframe.cc/8BmrNc)
+- [Portfolio page wireframe](https://wireframe.cc/VDgUjF)
+- [Contact page wireframe](https://wireframe.cc/UuQogb)
 
 ## Features
 
@@ -86,7 +86,7 @@ in the footer of each page and nav at the top.
 - The home page will have a carousel to capture the user's attention and interest.
 - The home page will have a link to google maps to allow a user to locate the artist's studio.
 - The portfolio page will have detail on the studio.
-- The portfolio page will have the artist's portfolio items in order so the user can scroll through.
+- The portfolio page will have the artist's portfolio items so the site users can scroll through.
 - The contact page will have a form so that the user can send a message to the artist to instigate communication.
 - The contact page will have details on latest activity by the artist so the user is kept up to date.
 
@@ -99,39 +99,36 @@ in the footer of each page and nav at the top.
 
 #### Frameworks, Tools and Libraries
 
-- Bootstrap
-  (https://getbootstrap.com/docs/4.5/getting-started/download/ "Bootstrap Download Page") -
-  I used Bootstrap to allow me to avail of some of the native classes to Bootstrap such as the grid.
-- Font Awesome (https://fontawesome.com/kits/be55c1e366/use "Font Awesome") - I used Font Awesome to
-  put some icons in to give meaning to the text.
-- Google Fonts (https://fonts.google.com/ "Google Fonts") - I used Google Fonts to style the text on my site.
-- Jquery (https://getbootstrap.com/docs/4.5/getting-started/download/ "Bootstrap Download Page") - I used
-  Jquery to allow me to put a toggler in for mobile nav.
+- [Bootstrap Download Page](https://getbootstrap.com/docs/4.5/getting-started/download/) -
+  I used Bootstrap to allow me to avail of some of the native classes to Bootstrap such as the grid,
+  and to use Jquery and JavaScript for the toggler button on the mobile navigation.
+- [Font Awesome](https://fontawesome.com/kits/be55c1e366/use) - I used Font Awesome to accentuate the text where appropriate.
+- [Google Fonts](https://fonts.google.com/) - I used Google Fonts to style the text on my site.
 
 #### Languages
 
-- HTML (https://en.wikipedia.org/wiki/HTML "HTML Wiki Page") - the main language to structure the elements of the page.
-- CSS (https://en.wikipedia.org/wiki/CSS "CSS Wiki Page") - used to style the elements used.
-- Javascript (https://en.wikipedia.org/wiki/JavaScript) - used with Jquery to allow the nav button toggler to operate.
+- [HTML Wiki Page](https://en.wikipedia.org/wiki/HTML) - the main language to structure the elements of the page.
+- [CSS Wiki Page](https://en.wikipedia.org/wiki/CSS) - used to style the elements.
+- [Javascript Wiki Page](https://en.wikipedia.org/wiki/JavaScript) - used with Jquery to allow the nav button toggler to operate.
 
 ## Testing
 
 #### Tools
 
-- Validator (https://validator.w3.org/ "HTML and CSS validator") - no issues found in my html files or my css file.
-- Reponsive (http://ami.responsivedesign.is/# "Reponsivity validator") - all of my pages opened on all the device sizes.
-- Developer tools in the browser.
+- [HTML and CSS validator](https://validator.w3.org/) - no issues found in my html files or my css file.
+- [Reponsivity validator](http://ami.responsivedesign.is/#) - all of my pages opened on all the device sizes.
+- Developer tools in the browser for regular testing to ensure mobile first design was respected.
 
 #### Functional Tests
 
 - On the home page, there is a link for directions that should open in a new tab. I verified this.
 - On the contact page, there is a form with required fields. I verified that they give a message to the user if left blank.
   Also, the email type means a user must poplulate an address with @ included which I validated. Once name, email and message
-  entered, the submit works and blanks the form out.
+  entered, the submit button works and blanks the form out.
 - The Nav bar has links to each page so that the back button is not depended upon. I tested by navigating to each page from
   every other page.
 - The footer contains social media links that go to the social media home pages. I verified that each does this and opens
-  in new tab.
+  in a new tab.
 - Along with the automated tools, I tested the site on my own devices including mobile for responsiveness.
 
 #### Site User Testing
@@ -168,3 +165,14 @@ in the footer of each page and nav at the top.
 - Type git clone https://github.com/TomDillane/ms1_independent_artist.git
 - Press "Enter".
 
+## Credits
+
+#### images
+
+- I used images from [Unsplash Free images](https://unsplash.com/)
+
+#### Acknowledgements
+
+- I would like to thank my mentor for the guidance given throughout.
+- Special mention for Slack's communnity where almost every question
+  I needed to raise had already been posed by someone else.
