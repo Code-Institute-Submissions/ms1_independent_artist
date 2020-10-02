@@ -83,7 +83,7 @@ section {
 /* Studio Tour */
 
 .studio-visit {
-    background: url("../images/studio_4.jpg");
+    background: url("../images/studio_4.jpg") no-repeat;
     background-size: cover;
     color: #f0f8ffec;
     font-family: "Kufam", sans-serif;
