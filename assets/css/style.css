@@ -184,6 +184,7 @@ footer {
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 60px;
 }
 
 .gallery {
@@ -193,15 +194,15 @@ footer {
 
 .portfolio-pic {
     margin: auto;
-    max-height: 75vh;
-    max-width: 75vw;
-    display: block;
+    max-height: 65vh;
+    max-width: 65vw;
     margin-bottom: 10px;
     overflow: hidden;
     border-width: thick;
     border-color: #000;
     border-style: thin;
     padding: 0;
+    display: block;
 }
 
 .title {
@@ -220,6 +221,8 @@ footer {
     display: block;
     padding: 0;
 }
+
+
 
 
 
