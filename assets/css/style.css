@@ -184,23 +184,39 @@ footer {
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-bottom: 10px;
+}
+
+.gallery {
+    background-color: #79777ce3;
+    padding-top: 1%;
 }
 
 .portfolio-pic {
+    margin: auto;
     max-height: 85vh;
     max-width: 85vw;
-    margin: auto;
     display: block;
     margin-bottom: 10px;
+    overflow: hidden;
+    border-width: thick;
+    border-color: #000;
+    border-style: solid;
 }
 
 .title {
     margin: auto;
-    margin-bottom: 10px;
     font-family: "Kufam", sans-serif;
     color: #e60e0ee3;
     font-weight: bold;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.picture {
+    margin: auto;
+    overflow: hidden;
+    display: block;
+    margin: auto;
 }
 
 
