@@ -193,14 +193,15 @@ footer {
 
 .portfolio-pic {
     margin: auto;
-    max-height: 85vh;
-    max-width: 85vw;
+    max-height: 75vh;
+    max-width: 75vw;
     display: block;
     margin-bottom: 10px;
     overflow: hidden;
     border-width: thick;
     border-color: #000;
-    border-style: solid;
+    border-style: thin;
+    padding: 0;
 }
 
 .title {
@@ -209,14 +210,15 @@ footer {
     color: #e60e0ee3;
     font-weight: bold;
     overflow: hidden;
-    display: inline-block;
+    display: block;
+    padding: 0;
 }
 
 .picture {
     margin: auto;
     overflow: hidden;
     display: block;
-    margin: auto;
+    padding: 0;
 }
 
 
