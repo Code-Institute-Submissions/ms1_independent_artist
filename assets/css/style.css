@@ -180,23 +180,29 @@ footer {
     background-color: #e60e0ee3;
     color: #f0f8ffec;
     font-family: "Kufam", sans-serif;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 60px;
 }
 
+@media only screen and (min-width: 992px) {
+    .studio-blurb {text-align: center;}
+}
+
 .gallery {
-    background-color: #79777ce3;
+    background-color: #f0f8ffec;
     padding-top: 1%;
+    margin-bottom: 15px;
 }
 
 .portfolio-pic {
     margin: auto;
     max-height: 65vh;
     max-width: 65vw;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     overflow: hidden;
     border-width: thick;
     border-color: #000;
@@ -205,11 +211,30 @@ footer {
     display: block;
 }
 
+.card {
+    padding: 15px 15px 15px 15px;
+    background-color: rgb(56, 55, 55);
+    color: #f0f8ffec;
+    font-family: "Kufam", sans-serif;
+}
+
+@media only screen and (min-width: 992px) {
+    .para-left {left: 150px;}
+}
+
+@media only screen and (min-width: 992px) {
+    .para-right {left: 100px;}
+}
+
+
+@media only screen and (max-width: 992px) {
+    .portfolio-pic {
+        max-height: 85vh;
+        max-width: 85vw;}
+}
+
 .title {
     margin: auto;
-    font-family: "Kufam", sans-serif;
-    color: #e60e0ee3;
-    font-weight: bold;
     overflow: hidden;
     display: block;
     padding: 0;
