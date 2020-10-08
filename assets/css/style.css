@@ -41,15 +41,38 @@ section {
 
 /* Carousel */
 
-.carousel-item img{
-    max-height: 75vh;
-    max-width: 75vw;
+.main-item img{
+    max-height: 55vh;
+    max-width: 55vw;
      margin: auto;  
  }
 
-#carousel-art-slide {
+ @media only screen and (max-width: 992px) {
+    .main-item img{
+        max-height: 55vh;
+        max-width: 85vw;}
+}
+
+ .prev-item img,
+ .next-item img
+ {
+    max-height: 30vh;
+    max-width: 30vw;
+     margin: auto;  
+ }
+
+#carousel-art-slide-prev {
+    right: 150px;
+    top: 100px;
+}
+
+#carousel-art-slide-main {
     background-color: #f0f8ffec;
-    position: relative;
+}
+
+#carousel-art-slide-next {
+    left: 150px;
+    top: 100px;
 }
 
 /* Testimonial */
