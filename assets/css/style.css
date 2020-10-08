@@ -197,6 +197,13 @@ footer {
     margin-bottom: 15px;
 }
 
+.picture {
+    margin: auto;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+}
+
 .portfolio-pic {
     margin: auto;
     max-height: 65vh;
@@ -209,6 +216,19 @@ footer {
     border-style: thin;
     padding: 0;
     display: block;
+}
+
+@media only screen and (max-width: 992px) {
+    .portfolio-pic {
+        max-height: 85vh;
+        max-width: 85vw;}
+}
+
+.title {
+    margin: auto;
+    overflow: hidden;
+    display: block;
+    padding: 0;
 }
 
 .card {
@@ -227,25 +247,6 @@ footer {
 }
 
 
-@media only screen and (max-width: 992px) {
-    .portfolio-pic {
-        max-height: 85vh;
-        max-width: 85vw;}
-}
-
-.title {
-    margin: auto;
-    overflow: hidden;
-    display: block;
-    padding: 0;
-}
-
-.picture {
-    margin: auto;
-    overflow: hidden;
-    display: block;
-    padding: 0;
-}
 
 
 
