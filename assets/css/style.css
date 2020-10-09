@@ -123,27 +123,31 @@ section {
 
 /* Social Media */
 
-.social-media {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .social-media-item {
     display: inline-block;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 45px;
     font-size: 30px;      
     }
+   
 
 footer {
-    background-color: rgb(56, 55, 55)
+    background-color: rgb(56, 55, 55);
+    color: #f0f8ffec;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .fab {
     color: #f0f8ffec;
+}
+
+.footer-content {
+    text-align: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 992px) {
+    .copyright {top: 40px;}
 }
 
 /* Contact Form */
