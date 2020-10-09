@@ -125,7 +125,7 @@ section {
 
 .social-media-item {
     display: inline-block;
-    padding-right: 40px;
+    padding-right: 45px;
     font-size: 30px;      
     }
    
@@ -148,6 +148,10 @@ footer {
 
 @media only screen and (min-width: 992px) {
     .copyright {top: 40px;}
+}
+
+@media only screen and (max-width: 992px) {
+    .social-media-item {padding-right: 10%;}
 }
 
 /* Contact Form */
