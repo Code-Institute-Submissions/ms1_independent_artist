@@ -78,7 +78,7 @@ section {
 /* Testimonial */
 
 .testimonial {
-     background-color: #e60e0ee3;
+     background-color: rgb(56, 55, 55);
      padding-bottom: 45px;
 }
 
@@ -87,15 +87,20 @@ section {
     margin-top: 60px;  
 }
 
+.blockquote h3 {
+    color:  #000;
+    
+}
+
 @media (min-width:992px) {
 .blockquote:not(:last-of-type) {
-      border-right: 5px solid #f0f8ffec;
+      border-right: 5px solid #e60e0ee3;
 }
 }
 
 @media (min-width:768px) {
 .blockquote:first-of-type {
-      border-right: 5px solid #f0f8ffec;
+      border-right: 5px solid #e60e0ee3;
 }
 }
 
@@ -157,15 +162,17 @@ footer {
 /* Contact Form */
 
 .contact-comms {
-    background-color: #e60e0ee3;
+    background-color: rgb(56, 55, 55);
     color: #f0f8ffec;
     font-family: "Kufam", sans-serif;
     padding-top: 20px;
     padding-bottom: 10px;
+    border-top-style: solid;
+    border-top-color: #e60e0ee3;
 }
 
 .contact-comms h5 {
-    color: black;
+    color: #383737;
     font-weight: bold;
 }
 
@@ -187,11 +194,13 @@ footer {
 
 
 .updates {
-    background-color: #79777ce3;
+    background-color: rgb(56, 55, 55);
     color: #f0f8ffec;
     font-family: "Kufam", sans-serif;
     padding-top: 25px;
     padding-bottom: 25px;
+    border-bottom-style: solid;
+    border-bottom-color: #e60e0ee3;
 }
 
 .updates h3 {
@@ -200,7 +209,7 @@ footer {
 }
 
 .updates h5 {
-    color: #e60e0ee3;
+    color: #000;
     font-weight: bold;
 }
 
@@ -208,14 +217,16 @@ footer {
 /* Portfolio */
 
 .studio-intro {
-    background-color: #e60e0ee3;
+    background-color: rgb(56, 55, 55);
     color: #f0f8ffec;
     font-family: "Kufam", sans-serif;
     padding-top: 30px;
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: 60px;
+    margin-top: 75px;
+    border-top-style: solid;
+    border-top-color: #e60e0ee3;s
 }
 
 @media only screen and (min-width: 992px) {
@@ -274,7 +285,7 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
-    .para-right {left: 100px;}
+    .para-right {left: 150px;}
 }
 
 
