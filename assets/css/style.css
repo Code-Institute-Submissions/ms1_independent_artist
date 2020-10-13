@@ -80,16 +80,27 @@ section {
 .testimonial {
      background-color: rgb(56, 55, 55);
      padding-bottom: 45px;
+     position: relative;
 }
 
 .blockquote {
     color: #f0f8ffec;
     margin-top: 60px;  
+    font-family: "Kufam", sans-serif;
+}
+
+.blockquote i {
+    margin-bottom: 15px;
+}
+
+.blockquote p {
+    margin-bottom: 80px;
 }
 
 .blockquote h3 {
     color:  #000;
-    
+    position: absolute;
+    bottom: 0;
 }
 
 @media (min-width:992px) {
@@ -104,8 +115,16 @@ section {
 }
 }
 
+line {
+    border-width: 2px;
+    color:  #e60e0ee3;
+}
+
+@media (max-width:768px) {
 .blockquote {
-    font-family: "Kufam", sans-serif;
+      border-bottom: 2px solid #e60e0ee3;
+      border-bottom-style: inset;
+}
 }
 
 /* Studio Tour */
