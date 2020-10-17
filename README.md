@@ -21,7 +21,7 @@ them to connect wwith interested parties.
 
 #### Scope Plane
 
-The website will include a gallery of the artist's work to date, a biography of the artist
+The website will include a gallery of the artist's work to date, snippets of a biography of the artist interspersed with the gallery
 and a facility to contact the artist.
 
 #### Structure Plane
@@ -78,7 +78,7 @@ in the footer of each page and nav at the top.
 #### Current Features
 
 - The entire website will be responsive, meaning it will work on large devices
-  such as desktops, and small devices such as smart phones. The concept of "mobile first", design will
+  such as desktops, and small devices such as smart phones. The concept of "mobile first design", will
   be to the fore.
 - Each page will have a nav bar at the top that will allow navigation to the other pages.
 - The nav bar will be compressed to a button on mobile devices.
@@ -161,6 +161,7 @@ in the footer of each page and nav at the top.
 - Go to GitHub and navigate to the main page of the repository (https://github.com/TomDillane/ms1_independent_artist)
 - Click the "Code", drop down.
 - Click the "Copy", icon next to the url.
+- Install Github on your machine and launch the repository that you wish to use.
 - Open Git Bash and navigate to where you want to put the clone.
 - Type git clone https://github.com/TomDillane/ms1_independent_artist.git
 - Press "Enter".
