@@ -195,7 +195,7 @@ footer {
 }
 
 .contact-comms h5 {
-    color: #383737;
+    color: #000;
     font-weight: bold;
 }
 
@@ -276,11 +276,9 @@ footer {
     margin-bottom: 15px;
     margin-top: 15px;
     overflow: hidden;
-    border-width: thick;
-    border-color: #000;
-    border-style: thin;
     padding: 0;
     display: block;
+    box-shadow: 5px 5px 5px #383737;
 }
 
 @media only screen and (max-width: 992px) {
@@ -304,11 +302,15 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
-    .para-left {left: 150px;}
+    .para-left {left: 150px;
+                margin-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
-    .para-right {left: 150px;}
+    .para-right {left: 150px;
+                margin-bottom: 20px;
+    }
 }
 
 
