@@ -41,6 +41,10 @@ section {
 
 /* Carousel */
 
+.carousel-item {
+    transition-duration: 0.9s;
+}
+
 .main-item img{
     max-height: 55vh;
     max-width: 55vw;
