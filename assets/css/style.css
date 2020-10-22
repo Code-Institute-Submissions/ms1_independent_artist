@@ -199,23 +199,57 @@ footer {
     font-weight: bold;
 }
 
-.contact-background {
+.form-container {
     background: url("../images/picture_4.jpg") no-repeat;
-    background-size: cover;
-    padding-bottom: 5px;
-    height: 60vh;
 }
 
-.contact-form {
-    width: 70%;
+@media only screen and (min-width: 992px) {
+    .form-container {border-right-style: solid;
+                    border-right-width: 10px;
+                    border-right-color: rgb(56, 55, 55);}
+}
+
+@media only screen and (min-width: 992px) {
+    .contact-background {border-style: solid;
+                    border-width: 10px;
+                    border-color: rgb(56, 55, 55);}
+}
+
+.contact-form {    
+    width: 350px;
     padding-top: 5%;
-} 
+    padding-bottom: 5%;
+    margin: auto;
+}
 
 .contact-button {
     width: 60%;
 }
 
+.artist-container {
+    background: url("../images/studio_4.jpg") no-repeat;
+    background-size: cover;
+}
 
+@media only screen and (max-width: 992px) {
+    .artist-container {border-top-style: solid;
+                    border-top-width: 10px;
+                    border-top-color: rgb(56, 55, 55);}
+}
+
+.artist-icon {
+    max-width: 350px;
+    max-height: 400px;
+    padding-top: 5%;
+}
+
+@media only screen and (min-width: 992px) {
+    .artist-icon {margin-left: 200px;}
+}
+
+@media only screen and (max-width: 992px) {
+    .artist-icon {margin-left: 60px;}
+}
 .updates {
     background-color: rgb(56, 55, 55);
     color: #f0f8ffec;
