@@ -149,13 +149,18 @@ line {
     font-weight: bold;
 }
 
-/* Social Media */
+/* Footer */
+
+.social-media {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .social-media-item {
     display: inline-block;
     padding-right: 45px;
-    font-size: 30px;      
-    }
+    font-size: 30px;       
+}
    
 
 footer {
@@ -175,7 +180,7 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
-    .copyright {top: 40px;}
+    .copyright {top: 20px;}
 }
 
 @media only screen and (max-width: 992px) {
