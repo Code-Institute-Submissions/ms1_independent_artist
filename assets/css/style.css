@@ -206,6 +206,7 @@ footer {
 
 .form-container {
     background: url("../images/picture_4.jpg") no-repeat;
+    background-size: cover;
 }
 
 @media only screen and (min-width: 992px) {
