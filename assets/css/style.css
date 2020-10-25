@@ -282,14 +282,15 @@ footer {
 .studio-intro {
     background-color: rgb(56, 55, 55);
     color: #f0f8ffec;
-    font-family: "Kufam", sans-serif;
+    font-family: "Cedarville Cursive", sans-serif;
+    font-size: x-large;
     padding-top: 30px;
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 75px;
     border-top-style: solid;
-    border-top-color: #e60e0ee3;s
+    border-top-color: #e60e0ee3;
 }
 
 @media only screen and (min-width: 992px) {
@@ -303,16 +304,10 @@ footer {
 }
 
 .picture {
+    position: relative;
     margin: auto;
-    overflow: hidden;
-    display: block;
-    padding: 0;
-}
-
-.portfolio-pic {
-    margin: auto;
-    max-height: 65vh;
-    max-width: 65vw;
+    max-height: 50%;
+    max-width: 50%;
     margin-bottom: 15px;
     margin-top: 15px;
     overflow: hidden;
@@ -321,10 +316,26 @@ footer {
     box-shadow: 5px 5px 5px #383737;
 }
 
+.portfolio-pic {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.pic-name {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px 15px 15px 15px;
+    background-color: rgba(56, 55, 55, 0.7);
+    color: #f0f8ffec;
+    font-family: "Kufam", sans-serif;
+}
+
 @media only screen and (max-width: 992px) {
-    .portfolio-pic {
-        max-height: 85vh;
-        max-width: 85vw;}
+    .picture {
+        max-height: 85%;
+        max-width: 85%}
 }
 
 .title {
